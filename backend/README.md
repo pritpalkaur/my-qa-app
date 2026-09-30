@@ -22,6 +22,7 @@ backend/
     repositories/pain_repo.py   # parameterized SQL
   sql/
     001_create_pain_records.sql # (re)creates dbo.PainRecords  -- DROPS the table
+    seed_pain_records.sql       # optional sample data (41 records)
   .env.example
   requirements.txt
 ```
